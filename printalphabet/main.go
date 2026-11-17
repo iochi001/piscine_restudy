@@ -2,7 +2,7 @@ package main
 
 import "github.com/01-edu/z01"
 
-func main () {
+func printAlphabetWhile() {
 letter := 'a'
 
   for letter <= 'z' {
@@ -10,4 +10,16 @@ letter := 'a'
     letter++
   }
 z01.PrintRune('\n')
+}
+
+func printAlphabetFor () {
+ for letter := 'a'; letter <= 'z'; letter++ {
+  z01.PrintRune(letter)
+ }
+ z01.PrintRune('\n')
+}
+
+func main() {
+	printAlphabetWhile()
+	printAlphabetFor()
 }
