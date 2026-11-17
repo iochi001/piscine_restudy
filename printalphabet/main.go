@@ -19,7 +19,17 @@ func printAlphabetFor () {
  z01.PrintRune('\n')
 }
 
+func printAlphabetRange() {
+  alphabet := "abcdefghijklmnopqrstuvwxyz"
+
+  for _, letter := range alphabet {
+    z01.PrintRune(letter)
+  }
+  z01.PrintRune('\n')
+}
+
 func main() {
 	printAlphabetWhile()
 	printAlphabetFor()
+  printAlphabetRange()
 }
