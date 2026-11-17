@@ -12,7 +12,7 @@ number := '0'
 z01.PrintRune('\n')
 }
 
-func printDigitsFor () {
+func printDigitsFor() {
  for number := '0'; number <= '9'; number++ {
   z01.PrintRune(number)
  }
