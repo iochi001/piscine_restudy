@@ -6,17 +6,17 @@ func printAlphabetWhile1() {
 	letter := 'z'
 
 	for letter >= 'a' {
-	fmt.Printf("%c", letter)
-	letter--
-}
-fmt.Println()
+		fmt.Printf("%c", letter)
+		letter--
+	}
+	fmt.Println()
 }
 
-func printAlphabetFor1 () {
+func printAlphabetFor1() {
 	for letter := 'z'; letter >= 'a'; letter-- {
 		fmt.Printf("%c", letter)
 	}
-fmt.Println()
+	fmt.Println()
 }
 
 func printAlphabetRange1() {

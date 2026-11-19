@@ -8,4 +8,6 @@ func main() {
 	piscine.IsNegative(-1)
 
 	piscine.PrintComb()
+
+	piscine.PrintComb2()
 }

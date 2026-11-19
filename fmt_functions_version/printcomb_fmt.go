@@ -7,7 +7,7 @@ func PrintCombFmt() {
 		for j := i + 1; i <= '8'; i++ {
 			for k := j + 1; k <= '9'; k++ {
 				fmt.Printf("%c%c%c", i, j, k)
-				if i !='7' || j != '8' || k != '9' {
+				if i != '7' || j != '8' || k != '9' {
 					fmt.Print(", ")
 				}
 			}
