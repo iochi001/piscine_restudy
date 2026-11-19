@@ -22,4 +22,8 @@ func main() {
 	fmt.Println()
 	PrintNbrFmt(math.MinInt)
 	fmt.Println()
+
+	PrintCombNFmt(1)
+	PrintCombNFmt(3)
+	PrintCombNFmt(9)
 }
