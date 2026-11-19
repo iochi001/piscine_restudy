@@ -1,5 +1,10 @@
 package main
 
+import (
+	"fmt"
+	"math"
+)
+
 func main() {
 	IsNegativeFmt(1)
 	IsNegativeFmt(0)
@@ -8,4 +13,13 @@ func main() {
 	PrintCombFmt()
 
 	PrintComb2Fmt()
+
+	PrintNbrFmt(-123)
+	fmt.Println()
+	PrintNbrFmt(0)
+	fmt.Println()
+	PrintNbrFmt(123)
+	fmt.Println()
+	PrintNbrFmt(math.MinInt)
+	fmt.Println()
 }
