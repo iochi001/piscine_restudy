@@ -19,4 +19,6 @@ func main() {
 	piscine.PrintNbr(0)
 	piscine.PrintNbr(123)
 	z01.PrintRune('\n')
+
+	piscine.PrintCombN(5)
 }
